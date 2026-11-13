@@ -1,0 +1,8 @@
+esp-pagekite
+Copyright 2026 Leon Bogaert
+
+Independent C implementation of the PageKite CONNECT/chunk/SID protocol.
+Extracted from https://github.com/LeonB/flue-monitor.
+Not affiliated with or endorsed by the PageKite service.
+Protocol references: https://github.com/pagekite/upagekite and
+https://github.com/pagekite/PyPagekite. No PageKite client source is included.

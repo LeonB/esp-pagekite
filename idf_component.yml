@@ -1,0 +1,6 @@
+description: Bounded native PageKite HTTP tunnel client for ESP-IDF
+url: https://github.com/LeonB/esp-pagekite
+repository: https://github.com/LeonB/esp-pagekite.git
+license: Apache-2.0
+dependencies:
+  idf: ">=6.0"

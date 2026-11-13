@@ -1,0 +1,9 @@
+{
+  "esp_idf_version": "6.0.3",
+  "target": "esp32",
+  "example_build": "passed",
+  "hardware_flash_for_extraction": false,
+  "host_protocol_asan_ubsan": "passed",
+  "configuration_api_asan_ubsan": "passed",
+  "live_pagekite_after_extraction": "not run"
+}

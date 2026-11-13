@@ -1,0 +1,21 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  host:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tests/test_configuration.py
+      - run: python3 tests/test_protocol.py
+  esp32-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: espressif/esp-idf-ci-action@v1
+        with:
+          esp_idf_version: release-v6.0
+          target: esp32
+          path: examples/minimal
